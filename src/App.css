@@ -1,0 +1,64 @@
+body{
+  background-color:blueviolet;
+}
+header{
+height: 100px;
+display:flex;
+background-color:purple;
+
+}
+.bild2{
+  position: absolute;
+  height:100px;
+  margin-right:0;
+}
+
+.bild1{
+  position: absolute;
+  height:100px;
+  margin-left:90%;
+
+}
+header > h1 {
+  position:absolute;
+  margin-left:35%;
+  align-content: center;
+
+  color: yellow
+}
+.meme{
+  position: relative;
+  width:90%;
+  margin:auto;
+}
+.meme >img {
+  display: flex;
+  width:900px;
+  height:700px;
+}
+
+.top{
+  overflow-wrap: break-word;
+  width:900px;
+  text-align: center;
+  bottom:65%;
+  position: absolute;
+  color:whitesmoke;
+  font-weight:bolder;
+  font-size: 400%;
+  
+  
+  
+}
+.bot{
+  overflow-wrap:break-word;
+  width:900px;
+  text-align: center;
+  top:70%;
+  position: absolute;
+  color:whitesmoke;
+  font-weight:bolder;
+  font-size: 400%;
+  
+  
+}
